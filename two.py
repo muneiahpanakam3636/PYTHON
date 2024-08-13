@@ -1,2 +1,2 @@
-price = 3000;
+price = 3000
 print(price)
