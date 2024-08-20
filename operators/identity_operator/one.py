@@ -10,3 +10,6 @@ f = 4.5
 print(a  is b)
 print(c is d)
 print(e is f)
+print(a is not c)
+# print(a  in b)
+# print(b in a)
