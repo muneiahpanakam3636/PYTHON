@@ -20,5 +20,6 @@ fs = frozenset(s1)
 print('a' not in str1 )
 print(10 not in l1)
 print(11 in r)
+print(60 in ba)
 
 
