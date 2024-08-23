@@ -1,4 +1,4 @@
 i=100
 while i>=1:
-    print(i)
+    print(i,end=",")
     i=i-1
