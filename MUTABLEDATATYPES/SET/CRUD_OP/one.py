@@ -4,8 +4,8 @@
 # 4)order guarentee/insertion order is not preserved
 
 s1 = { }
-print(type(s1))
+print(type(s1))#<class 'dict'>
 
 ##o/p is dict type-convert to set type ny using set()
 s2 = set()
-print(type(s2))
+print(type(s2))#<class 'set'>
