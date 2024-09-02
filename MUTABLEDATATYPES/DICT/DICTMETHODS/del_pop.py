@@ -9,3 +9,4 @@ emp ={
 
 emp.pop('ename')
 print(emp)
+#{'eid': 101, 'esal': 45000.9}

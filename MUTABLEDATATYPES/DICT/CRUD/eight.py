@@ -53,10 +53,20 @@ users = [{"eid":1,"ename":"Goldi","email":"gchance0@free.fr","gender":"Female"},
 
 print(type(users))# list type
 
-#print all user names
-for user in users:
-    print(user['ename'])
-    print(type(user))#tuple type
+no_of_male_users =0
+no_of_female_users = 0
 
 
-    
+i=0
+while i<=len(users)-1:
+    if users[i]['gender']=='Male':
+        no_of_male_users=no_of_male_users+1
+    elif users[i]['gender']=='Female':
+        no_of_female_users=no_of_female_users+1
+    i = i+1        
+
+print("No of male users:",no_of_male_users)    
+print('No of female users:',no_of_female_users)
+
+#No of Male users: 28
+# No of FeMale users: 1
