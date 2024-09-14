@@ -13,3 +13,6 @@ About_page("Rahul",False)
 def order_page(name,islogin):
     print("order page")
 order_page("Rahul",False) 
+# Home page
+# about page
+# order page

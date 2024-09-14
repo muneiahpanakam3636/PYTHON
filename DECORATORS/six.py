@@ -23,3 +23,8 @@ About_page(False)
 def order_page(islogin):
     print("order page")
 order_page(False)
+
+
+# Home page
+# about page
+# Login required

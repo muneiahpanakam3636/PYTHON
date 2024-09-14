@@ -4,3 +4,7 @@
 def home_page(islogin):
     print("home page")
 home_page(True)    
+home_page(False)    
+#  either true or false home page is default
+#home page
+#home page

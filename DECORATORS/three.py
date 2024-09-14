@@ -12,3 +12,5 @@ def calC(a,b):
     print(a/b)
 calC (10,2)
 calC(10,0) 
+# 5.0
+# buddy -- can't divide by zero
